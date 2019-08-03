@@ -1,5 +1,6 @@
 package framework.projectname.helper.wait;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -10,6 +11,8 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import framework.projectname.helper.logger.LoggerHelper;
@@ -34,14 +37,14 @@ public class Waithelper {
 	private WebDriverWait getwait(int timeOutInSeconds, int pollingEveryInmiliSec)
 	{
 		WebDriverWait wait= new WebDriverWait(driver, timeOutInSeconds);
-		wait.pollingEvery(pollingEveryInmiliSec,TimeUnit.SECONDS);
+		wait.pollingEvery(Duration.ofMillis(pollingEveryInmiliSec));
 		wait.ignoring(NoSuchElementException.class);
 		wait.ignoring(ElementNotVisibleException.class);
 		wait.ignoring(NoSuchFrameException.class);
 		wait.ignoring(StaleElementReferenceException.class);
 		return wait;
 	}
-	// This is fluent wait this will make sure element is visble now
+	// this will make sure element is visible now
 	public void waitforelementvisible(WebElement element, int timeOutInSeconds, int pollingEveryInmiliSec) 
 	{
 		log.info("Waiting for "+element.toString()+"for: "+timeOutInSeconds+"seconds");
@@ -78,6 +81,29 @@ public class Waithelper {
 		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(element));
 		log.info("frame is avaible now and switched");
 		
+	}
+	//This is fluent wait 
+	private Wait<WebDriver> getfluentwait(int timeOutInSeconds, int pollingEveryInMiliSec)
+	{
+	
+		Wait<WebDriver> fwait= new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(timeOutInSeconds))
+				.pollingEvery(Duration.ofMillis(pollingEveryInMiliSec))
+				.ignoring(NoSuchElementException.class);
+		return fwait;
+	}
+	
+	public void waitforelement(WebElement element, int timeOutInSeconds,int PollingEveryInMiliSec)
+	{
+		 Wait<WebDriver> fwait = getfluentwait(timeOutInSeconds, PollingEveryInMiliSec);
+		 fwait.until(ExpectedConditions.visibilityOf(element));
+		 
+	}
+	
+	public void pageloadtime(long timeout ,TimeUnit unit)
+	{
+		log.info("waiting for page to load"+unit);
+		driver.manage().timeouts().pageLoadTimeout(timeout, unit);
+		log.info("page is loaded");
 	}
 	
 }
