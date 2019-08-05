@@ -9,11 +9,11 @@ public class Resourcehelper {
 	    return basepath + path;
 	}
 
-//public static void main(String[] args) {
-//	
-//	String getpath = Resourcehelper.getResourcepath("src/main/Resources/configfile/log4j.properties");
-//	System.out.println(getpath);
-//	
-//}	
+public static void main(String[] args) {
+	
+	String getpath = Resourcehelper.getResourcepath("/src/main/Resources/configfile/log4j.properties");
+	System.out.println(getpath);
+
+}	
 	
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regressionsuite">
+<listeners>
+
+<listener class-name="framework.projectname.helper.listener.RetryListener"></listener>
+
+</listeners>
+
+<test name="Firsttest">
+<classes>
+<class name="framework.projectname.helper.listener.A"></class>
+<class name="framework.projectname.helper.listener.B"></class>
+<class name="framework.projectname.helper.listener.C"></class>
+</classes>
+</test>
+</suite>

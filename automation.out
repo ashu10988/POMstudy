@@ -6,3 +6,16 @@
 2019-07-209 13:07:668 INFO LoggerHelper:24 - looger is configured
 2019-07-209 13:07:223 INFO LoggerHelper:23 - looger is configured
 2019-07-209 13:07:226 INFO LoggerHelper:24 - looger is configured
+2019-08-216 07:08:627 INFO LoggerHelper:25 - looger is configured
+2019-08-216 07:08:631 INFO LoggerHelper:26 - looger is configured
+2019-08-217 13:08:547 INFO Retry:19 - Re trying testhellowith statusFailedfor the1times
+2019-08-217 13:08:571 INFO Retry:19 - Re trying testhellowith statusFailedfor the2times
+2019-08-217 13:08:578 INFO Retry:19 - Re trying testhellowith statusFailedfor the3times
+2019-08-217 13:08:587 INFO Retry:19 - Re trying testhellowith statusFailedfor the1times
+2019-08-217 13:08:597 INFO Retry:19 - Re trying testhellowith statusFailedfor the2times
+2019-08-217 13:08:604 INFO Retry:19 - Re trying testhellowith statusFailedfor the3times
+2019-08-217 16:08:379 INFO Retry:19 - Re trying test hellob with status Failedfor the 1times 
+2019-08-217 16:08:415 INFO Retry:19 - Re trying test hellob with status Failedfor the 2times 
+2019-08-217 16:08:432 INFO Retry:19 - Re trying test hello with status Failedfor the 1times 
+2019-08-217 16:08:439 INFO Retry:19 - Re trying test hello with status Failedfor the 2times 
+2019-08-217 16:08:445 INFO Retry:19 - Re trying test hello with status Failedfor the 3times 

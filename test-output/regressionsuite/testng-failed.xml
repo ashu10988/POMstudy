@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regressionsuite]">
+  <listeners>
+    <listener class-name="framework.projectname.helper.listener.RetryListener"/>
+  </listeners>
+  <test name="Firsttest(failed)">
+    <classes>
+      <class name="framework.projectname.helper.listener.B">
+        <methods>
+          <include name="hellob"/>
+        </methods>
+      </class> <!-- framework.projectname.helper.listener.B -->
+      <class name="framework.projectname.helper.listener.C">
+        <methods>
+          <include name="hello"/>
+        </methods>
+      </class> <!-- framework.projectname.helper.listener.C -->
+    </classes>
+  </test> <!-- Firsttest(failed) -->
+</suite> <!-- Failed suite [regressionsuite] -->

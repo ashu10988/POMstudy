@@ -15,8 +15,9 @@ public class LoggerHelper {
 		{
 			return Logger.getLogger(cls);
 		}
-	PropertyConfigurator.configure(Resourcehelper.getResourcepath("src/main/Resources/configfile/log4j.properties"));	
-		root=true;
+	PropertyConfigurator.configure(Resourcehelper.getResourcepath("/src/main/Resources/configfile/log4j.properties"));	
+																//add backslash before src 
+	root=true;
 		return Logger.getLogger(cls);
 	}
 
