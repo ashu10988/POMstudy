@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [regressionsuite]">
-  <listeners>
-    <listener class-name="framework.projectname.helper.listener.RetryListener"/>
-  </listeners>
-  <test name="Firsttest(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="framework.projectname.helper.listener.B">
+      <class name="framework.projectname.testscripts.Test1">
         <methods>
-          <include name="hellob"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+          <include name="hello1"/>
+          <include name="beforeclass"/>
+          <include name="beforesuit"/>
         </methods>
-      </class> <!-- framework.projectname.helper.listener.B -->
-      <class name="framework.projectname.helper.listener.C">
-        <methods>
-          <include name="hello"/>
-        </methods>
-      </class> <!-- framework.projectname.helper.listener.C -->
+      </class> <!-- framework.projectname.testscripts.Test1 -->
     </classes>
-  </test> <!-- Firsttest(failed) -->
-</suite> <!-- Failed suite [regressionsuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

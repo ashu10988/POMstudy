@@ -19,3 +19,9 @@
 2019-08-217 16:08:432 INFO Retry:19 - Re trying test hello with status Failedfor the 1times 
 2019-08-217 16:08:439 INFO Retry:19 - Re trying test hello with status Failedfor the 2times 
 2019-08-217 16:08:445 INFO Retry:19 - Re trying test hello with status Failedfor the 3times 
+2019-08-228 15:08:873 INFO AssertionHelper:21 - making script pass
+2019-08-228 15:08:683 INFO AssertionHelper:34 - making script fail
+2019-08-228 16:08:537 INFO AssertionHelper:21 - making script pass
+2019-08-228 16:08:56 INFO AssertionHelper:34 - making script fail
+2019-08-228 17:08:234 INFO AssertionHelper:21 - making script pass
+2019-08-228 17:08:674 INFO AssertionHelper:34 - making script fail
