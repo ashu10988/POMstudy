@@ -23,7 +23,7 @@ public class Waithelper {
 	
 	private Logger log=LoggerHelper.getLogger(Waithelper.class);
 	
-	Waithelper( WebDriver driver)
+	public Waithelper( WebDriver driver)
 	{
 		this.driver=driver;
 	}
