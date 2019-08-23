@@ -12,13 +12,15 @@ public class ChromeBrowser {
 	public ChromeOptions getChromeOptions()
 	{
 		ChromeOptions option= new ChromeOptions();//Provided by selenium 
-	    option.addArguments("--test type--");
-	    option.addArguments("-disable pop blocking");
+	   // option.addArguments("--test type--");
+	   // option.addArguments("-disable pop blocking");
 	    
 	    // Object of Desire capabilities
 	    
 	    DesiredCapabilities chrome = DesiredCapabilities.chrome();
 	    chrome.setJavascriptEnabled(true);
+	    
+	    
 	    option.setCapability(ChromeOptions.CAPABILITY, chrome);
 	    
 	    //For Linux
@@ -46,5 +48,11 @@ public class ChromeBrowser {
 		return null;
 		
 	}
+	
+//	public static void main(String[] args) {
+//		ChromeBrowser obj = new ChromeBrowser();
+//		WebDriver driver = obj.getChromeDriver(obj.getChromeOptions());
+//		driver.get("https://facebook.com");
+//	}
 	
 }

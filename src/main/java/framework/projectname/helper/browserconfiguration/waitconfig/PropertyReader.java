@@ -13,10 +13,11 @@ public class PropertyReader implements ConfigReader {
 	public static Properties OR;
 
 	public PropertyReader() {
-		String filepath = Resourcehelper.getResourcepath("\\src\\main\\Resources\\configfile\\config.properties");
+		
 		try {
+			String filepath = Resourcehelper.getResourcepath("/src/main/Resources/configfile/config.properties");
 			file = new FileInputStream(new File(filepath));
-			Properties OR = new Properties();
+			 OR = new Properties();
 			OR.load(file);
 
 		} catch (Exception e) {
@@ -36,8 +37,10 @@ public class PropertyReader implements ConfigReader {
 		return Integer.parseInt(OR.getProperty("pageloadTime"));
 	}
 
-	public BrowserType getbroswerType() {
+	public BrowserType getBroswerType() {
 		return BrowserType.valueOf(OR.getProperty("browserType"));
 	}
+
+	
 
 }
