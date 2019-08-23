@@ -7,6 +7,6 @@ public interface ConfigReader {
 	public int getImpliciteWait();
 	public int getExplicitWait();
 	public int getPageLoadTime();
-	public BrowserType getbroswerType();
+	public BrowserType getBroswerType();
 
 }
