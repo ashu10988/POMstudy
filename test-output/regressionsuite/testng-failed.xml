@@ -2,20 +2,43 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [regressionsuite]">
   <listeners>
-    <listener class-name="framework.projectname.helper.listener.RetryListener"/>
+    <listener class-name="framework.projectname.helper.listener.ExtentListener"/>
   </listeners>
   <test name="Firsttest(failed)">
     <classes>
       <class name="framework.projectname.helper.listener.B">
         <methods>
+          <include name="AfterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeclass"/>
           <include name="hellob"/>
         </methods>
       </class> <!-- framework.projectname.helper.listener.B -->
       <class name="framework.projectname.helper.listener.C">
         <methods>
+          <include name="AfterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeclass"/>
           <include name="hello"/>
         </methods>
       </class> <!-- framework.projectname.helper.listener.C -->
+      <class name="framework.projectname.testscripts.TakeScreenshot">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforetest"/>
+          <include name="beforeclass"/>
+          <include name="beforesuit"/>
+        </methods>
+      </class> <!-- framework.projectname.testscripts.TakeScreenshot -->
+      <class name="framework.projectname.helper.listener.A">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforetest"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- framework.projectname.helper.listener.A -->
     </classes>
   </test> <!-- Firsttest(failed) -->
 </suite> <!-- Failed suite [regressionsuite] -->

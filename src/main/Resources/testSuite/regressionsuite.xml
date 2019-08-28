@@ -3,7 +3,8 @@
 <suite name="regressionsuite">
 <listeners>
 
-<listener class-name="framework.projectname.helper.listener.RetryListener"></listener>
+<!--<listener class-name="framework.projectname.helper.listener.RetryListener"></listener>-->
+<listener class-name="framework.projectname.helper.listener.ExtentListener"></listener>
 
 </listeners>
 
@@ -14,4 +15,11 @@
 <class name="framework.projectname.helper.listener.C"></class>
 </classes>
 </test>
+
+<test name="TakeScreenshot">
+<classes>
+<class name="framework.projectname.testscripts.TakeScreenshot"></class>
+</classes>
+</test>
+
 </suite>

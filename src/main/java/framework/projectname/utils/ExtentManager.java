@@ -9,7 +9,7 @@ public class ExtentManager {
 
 	private static ExtentReports extent;
 
-	public static ExtentReports getReporter() {
+	public static ExtentReports getInstance() {
 		if (extent == null) {
 			return createInstance("test-output/extent.html");
 		} else

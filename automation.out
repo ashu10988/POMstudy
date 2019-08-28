@@ -25,3 +25,131 @@
 2019-08-228 16:08:56 INFO AssertionHelper:34 - making script fail
 2019-08-228 17:08:234 INFO AssertionHelper:21 - making script pass
 2019-08-228 17:08:674 INFO AssertionHelper:34 - making script fail
+2019-08-235 09:08:81 INFO Testbase:117 - Intiliaze webdriver : 1342346098
+2019-08-235 09:08:160 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 09:08:283 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 09:08:312 INFO Waithelper:106 - page is loaded
+2019-08-235 09:08:742 INFO Testbase:117 - Intiliaze webdriver : 1342346098
+2019-08-235 09:08:861 INFO Testbase:117 - Intiliaze webdriver : 1342346098
+2019-08-235 09:08:922 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 09:08:949 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 09:08:14 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 09:08:63 INFO Waithelper:106 - page is loaded
+2019-08-235 09:08:87 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 09:08:140 INFO Waithelper:106 - page is loaded
+2019-08-235 09:08:542 INFO Testbase:117 - Intiliaze webdriver : 1342346098
+2019-08-235 09:08:556 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 09:08:589 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 09:08:611 INFO Waithelper:106 - page is loaded
+2019-08-235 10:08:101 INFO Testbase:117 - Intiliaze webdriver : 1342346098
+2019-08-235 10:08:117 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 10:08:152 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 10:08:168 INFO Waithelper:106 - page is loaded
+2019-08-235 11:08:697 INFO Testbase:117 - Intiliaze webdriver : 1342346098
+2019-08-235 11:08:725 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 11:08:769 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 11:08:828 INFO Waithelper:106 - page is loaded
+2019-08-235 11:08:933 INFO Testbase:117 - Intiliaze webdriver : 1342346098
+2019-08-235 11:08:962 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 11:08:32 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 11:08:72 INFO Waithelper:106 - page is loaded
+2019-08-235 12:08:789 INFO Testbase:117 - Intiliaze webdriver : 1342346098
+2019-08-235 12:08:812 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 12:08:851 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 12:08:878 INFO Waithelper:106 - page is loaded
+2019-08-235 12:08:541 INFO Testbase:118 - Intiliaze webdriver : 1342346098
+2019-08-235 12:08:573 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 12:08:617 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 12:08:669 INFO Waithelper:106 - page is loaded
+2019-08-235 12:08:373 INFO Testbase:118 - Intiliaze webdriver : 1342346098
+2019-08-235 12:08:408 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 12:08:454 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 12:08:493 INFO Waithelper:106 - page is loaded
+2019-08-235 13:08:162 INFO Testbase:116 - Intiliaze webdriver : 1342346098
+2019-08-235 13:08:185 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 13:08:220 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 13:08:246 INFO Waithelper:106 - page is loaded
+2019-08-235 13:08:567 INFO Testbase:116 - Intiliaze webdriver : 1342346098
+2019-08-235 13:08:654 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-235 13:08:683 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-235 13:08:704 INFO Waithelper:106 - page is loaded
+2019-08-237 00:08:621 INFO Testbase:123 - Intiliaze webdriver : 1756573246
+2019-08-237 00:08:780 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-237 00:08:788 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-237 00:08:791 INFO Waithelper:106 - page is loaded
+2019-08-237 01:08:857 INFO ExtentListener:26 - Firsttesttest Started
+2019-08-237 01:08:953 INFO Testbase:123 - Intiliaze webdriver : 1752461090
+2019-08-237 01:08:994 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-237 01:08:02 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-237 01:08:05 INFO Waithelper:106 - page is loaded
+2019-08-237 01:08:171 INFO ExtentListener:38 - hellotest started
+2019-08-237 01:08:175 INFO ExtentListener:44 - hellotest passed
+2019-08-237 01:08:967 INFO ExtentListener:38 - hellobtest started
+2019-08-237 01:08:972 ERRORExtentListener:50 - hellobtest Failedjava.lang.AssertionError: expected [true] but found [false]
+2019-08-237 01:08:980 INFO Testbase:135 -  driver is null so cant take screenshot
+2019-08-237 01:08:136 INFO ExtentListener:38 - hellotest started
+2019-08-237 01:08:145 ERRORExtentListener:50 - hellotest Failedjava.lang.AssertionError: expected [true] but found [false]
+2019-08-237 01:08:150 INFO Testbase:135 -  driver is null so cant take screenshot
+2019-08-237 01:08:298 INFO ExtentListener:32 - Firsttesttest Finshed
+2019-08-237 01:08:304 INFO ExtentListener:26 - TakeScreenshottest Started
+2019-08-237 01:08:270 INFO Testbase:123 - Intiliaze webdriver : 1003206025
+2019-08-237 01:08:272 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-237 01:08:276 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-237 01:08:281 INFO Waithelper:106 - page is loaded
+2019-08-237 01:08:412 INFO ExtentListener:38 - test1test started
+2019-08-237 01:08:744 INFO ExtentListener:44 - test1test passed
+2019-08-237 01:08:239 INFO ExtentListener:32 - TakeScreenshottest Finshed
+2019-08-237 01:08:903 INFO ExtentListener:26 - Firsttesttest Started
+2019-08-237 01:08:850 INFO Testbase:123 - Intiliaze webdriver : 1752461090
+2019-08-237 01:08:852 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-237 01:08:859 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-237 01:08:863 INFO Waithelper:106 - page is loaded
+2019-08-237 01:08:26 INFO ExtentListener:38 - hellotest started
+2019-08-237 01:08:30 INFO ExtentListener:44 - hellotest passed
+2019-08-237 01:08:778 INFO ExtentListener:38 - hellobtest started
+2019-08-237 01:08:783 ERRORExtentListener:50 - hellobtest Failedjava.lang.AssertionError: expected [true] but found [false]
+2019-08-237 01:08:807 INFO Testbase:135 -  driver is null so cant take screenshot
+2019-08-237 01:08:925 INFO ExtentListener:38 - hellotest started
+2019-08-237 01:08:933 ERRORExtentListener:50 - hellotest Failedjava.lang.AssertionError: expected [true] but found [false]
+2019-08-237 01:08:938 INFO Testbase:135 -  driver is null so cant take screenshot
+2019-08-237 01:08:116 INFO ExtentListener:32 - Firsttesttest Finshed
+2019-08-237 01:08:119 INFO ExtentListener:26 - TakeScreenshottest Started
+2019-08-237 01:08:859 INFO Testbase:123 - Intiliaze webdriver : 1003206025
+2019-08-237 01:08:860 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-237 01:08:865 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-237 01:08:870 INFO Waithelper:106 - page is loaded
+2019-08-237 01:08:00 INFO ExtentListener:38 - test1test started
+2019-08-237 01:08:691 INFO ExtentListener:44 - test1test passed
+2019-08-237 01:08:115 INFO ExtentListener:32 - TakeScreenshottest Finshed
+2019-08-237 01:08:238 INFO Testbase:123 - Intiliaze webdriver : 1342346098
+2019-08-237 01:08:278 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-237 01:08:293 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-237 01:08:309 INFO Waithelper:106 - page is loaded
+2019-08-238 06:08:55 INFO ExtentListener:26 - Testtest Started
+2019-08-238 06:08:218 INFO Testbase:123 - Intiliaze webdriver : 1807015220
+2019-08-238 06:08:277 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-238 06:08:312 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-238 06:08:323 INFO Waithelper:106 - page is loaded
+2019-08-238 06:08:543 INFO ExtentListener:38 - test1test started
+2019-08-238 06:08:698 INFO ExtentListener:44 - test1test passed
+2019-08-238 06:08:864 INFO ExtentListener:32 - Testtest Finshed
+2019-08-238 07:08:437 INFO ExtentListener:26 - Testtest Started
+2019-08-238 07:08:904 INFO Testbase:132 - Intiliaze webdriver : 2107577743
+2019-08-238 07:08:908 INFO Waithelper:32 - Implicit wait has been set to :50
+2019-08-238 07:08:921 INFO Waithelper:104 - waiting for page to loadSECONDS
+2019-08-238 07:08:932 INFO Waithelper:106 - page is loaded
+2019-08-238 07:08:84 INFO ExtentListener:38 - test1test started
+2019-08-238 07:08:950 INFO ExtentListener:44 - test1test passed
+2019-08-238 07:08:720 INFO ExtentListener:32 - Testtest Finshed
+2019-08-238 12:08:226 INFO ExtentListener:26 - Testtest Started
+2019-08-238 12:08:345 INFO ExtentListener:38 - test1test started
+2019-08-238 12:08:346 WARN ExtentListener:56 - test1test skippednull
+2019-08-238 12:08:548 INFO ExtentListener:32 - Testtest Finshed
+2019-08-238 12:08:751 INFO ExtentListener:26 - Testtest Started
+2019-08-238 12:08:859 INFO Testbase:132 - Intiliaze webdriver : 2107577743
+2019-08-238 12:08:861 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-08-238 12:08:130 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-08-238 12:08:134 INFO WaitHelper:106 - page is loaded
+2019-08-238 12:08:355 INFO ExtentListener:38 - test1test started
+2019-08-238 12:08:713 INFO ExtentListener:44 - test1test passed
+2019-08-238 12:08:391 INFO ExtentListener:32 - Testtest Finshed

@@ -17,13 +17,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import framework.projectname.helper.logger.LoggerHelper;
 
-public class Waithelper {
+public class WaitHelper {
 	
 	private WebDriver driver;
 	
-	private Logger log=LoggerHelper.getLogger(Waithelper.class);
+	private Logger log=LoggerHelper.getLogger(WaitHelper.class);
 	
-	public Waithelper( WebDriver driver)
+	public WaitHelper( WebDriver driver)
 	{
 		this.driver=driver;
 	}

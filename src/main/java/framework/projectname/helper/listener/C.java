@@ -3,7 +3,9 @@ package framework.projectname.helper.listener;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class C {
+import framework.projectname.testbase.Testbase;
+
+public class C extends Testbase{
 	@Test
 	public void hello()
 	{

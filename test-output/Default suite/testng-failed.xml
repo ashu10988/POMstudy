@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="framework.projectname.testscripts.Test1">
+      <class name="framework.projectname.testscripts.TakeScreenshot">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="AfterMethod"/>
-          <include name="hello1"/>
-          <include name="beforeclass"/>
+          <include name="beforetest"/>
+          <include name="test1"/>
           <include name="beforesuit"/>
         </methods>
-      </class> <!-- framework.projectname.testscripts.Test1 -->
+      </class> <!-- framework.projectname.testscripts.TakeScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
