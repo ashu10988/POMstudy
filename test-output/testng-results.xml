@@ -2,78 +2,68 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Testtest Started]]>
+      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'height='100' width='100'/></a>]]>
     </line>
     <line>
-      <![CDATA[test1test started]]>
+      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_37.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_37.png'height='100' width='100'/></a>]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\First screenshot_26_08_2019_12_47_06.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\First screenshot_26_08_2019_12_47_06.png'height='100' width='100'/></a>]]>
-    </line>
-    <line>
-      <![CDATA[test1test Passed]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\test1_26_08_2019_12_47_06.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\test1_26_08_2019_12_47_06.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\loginToApplication_23_09_2019_06_55_38.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\loginToApplication_23_09_2019_06_55_38.png'height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="21620" started-at="2019-08-26T07:16:47Z" finished-at="2019-08-26T07:17:09Z">
+  <suite name="Default suite" duration-ms="31620" started-at="2019-09-23T13:25:09Z" finished-at="2019-09-23T13:25:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21620" started-at="2019-08-26T07:16:47Z" finished-at="2019-08-26T07:17:09Z">
-      <class name="framework.projectname.testscripts.TakeScreenshot">
-        <test-method status="PASS" signature="beforesuit()[pri:0, instance:framework.projectname.testscripts.TakeScreenshot@3632be31]" name="beforesuit" is-config="true" duration-ms="241" started-at="2019-08-26T12:46:47Z" finished-at="2019-08-26T12:46:47Z">
+    <test name="Default test" duration-ms="31620" started-at="2019-09-23T13:25:09Z" finished-at="2019-09-23T13:25:41Z">
+      <class name="framework.projectname.testscripts.loginpage.LoginTest">
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="beforesuit" is-config="true" duration-ms="944" started-at="2019-09-23T18:55:08Z" finished-at="2019-09-23T18:55:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuit -->
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:framework.projectname.testscripts.TakeScreenshot@3632be31]" name="beforetest" is-config="true" duration-ms="15505" started-at="2019-08-26T12:46:47Z" finished-at="2019-08-26T12:47:03Z">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="beforetest" is-config="true" duration-ms="8386" started-at="2019-09-23T18:55:09Z" finished-at="2019-09-23T18:55:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:framework.projectname.testscripts.TakeScreenshot@3632be31]" name="beforeclass" is-config="true" duration-ms="51" started-at="2019-08-26T12:47:03Z" finished-at="2019-08-26T12:47:03Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="beforeclass" is-config="true" duration-ms="10" started-at="2019-09-23T18:55:18Z" finished-at="2019-09-23T18:55:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:framework.projectname.testscripts.TakeScreenshot@3632be31]" name="beforeMethod" is-config="true" duration-ms="19" started-at="2019-08-26T12:47:03Z" finished-at="2019-08-26T12:47:03Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="beforeMethod" is-config="true" duration-ms="26" started-at="2019-09-23T18:55:18Z" finished-at="2019-09-23T18:55:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void framework.projectname.testscripts.TakeScreenshot.test1()]]>
+                <![CDATA[public void framework.projectname.testscripts.loginpage.LoginTest.loginToApplication()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:framework.projectname.testscripts.TakeScreenshot@3632be31]" name="test1" duration-ms="3363" started-at="2019-08-26T12:47:03Z" finished-at="2019-08-26T12:47:06Z">
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="loginToApplication" duration-ms="20443" started-at="2019-09-23T18:55:18Z" description="login with valid credetioals" finished-at="2019-09-23T18:55:38Z">
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\First screenshot_26_08_2019_12_47_06.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\First screenshot_26_08_2019_12_47_06.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'height='100' width='100'/></a>]]>
             </line>
             <line>
-              <![CDATA[test1test Passed]]>
+              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_37.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_37.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:framework.projectname.testscripts.TakeScreenshot@3632be31]" name="AfterMethod" is-config="true" duration-ms="1826" started-at="2019-08-26T12:47:06Z" finished-at="2019-08-26T12:47:08Z">
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="AfterMethod" is-config="true" duration-ms="2683" started-at="2019-09-23T18:55:38Z" finished-at="2019-09-23T18:55:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=SUCCESS method=TakeScreenshot.test1()[pri:0, instance:framework.projectname.testscripts.TakeScreenshot@3632be31] output=<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\First screenshot_26_08_2019_12_47_06.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\First screenshot_26_08_2019_12_47_06.png'height='100' width='100'/></a>]]]>
+                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=LoginTest.loginToApplication()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356] output=<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'height='100' width='100'/></a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\test1_26_08_2019_12_47_06.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\test1_26_08_2019_12_47_06.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\loginToApplication_23_09_2019_06_55_38.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\loginToApplication_23_09_2019_06_55_38.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:framework.projectname.testscripts.TakeScreenshot@3632be31]" name="afterTest" is-config="true" duration-ms="818" started-at="2019-08-26T12:47:08Z" finished-at="2019-08-26T12:47:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- framework.projectname.testscripts.TakeScreenshot -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- framework.projectname.testscripts.loginpage.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

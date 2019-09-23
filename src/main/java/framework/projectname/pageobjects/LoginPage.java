@@ -22,80 +22,84 @@ public class LoginPage {
 
 	@FindBy(xpath = "//button[@id='SubmitLogin']/span")
 	WebElement alreadyregisteredsignin;
-     
+
 	@FindBy(xpath = "//a[@class='login']")
 	WebElement signinlink;
-	
-	@FindBy(xpath="//input[@id='email']")
+
+	@FindBy(xpath = "//input[@id='email']")
 	WebElement registerdemail;
-	
-	@FindBy(xpath="//input[@id='passwd']")
+
+	@FindBy(xpath = "//input[@id='passwd']")
 	WebElement enterpassword;
-	
-	@FindBy(xpath="//button[@id='SubmitLogin']/span")
+
+	@FindBy(xpath = "//button[@id='SubmitLogin']/span")
 	WebElement submitlogin;
-	
+
 	@FindBy(xpath = "//input[@id='email_create']")
 	WebElement regestriationEmail;
-	
+
 	@FindBy(xpath = "//button[@id='SubmitCreate']/span")
 	WebElement CreateAnAccountButton;
-	
+
+	@FindBy(xpath = "//div/h1")
+	WebElement sucessMsgobject;
+
 	public LoginPage(WebDriver driver) {
-		this.driver=driver;
-		PageFactory.initElements(driver,this);
-		WaitHelper waithelper= new WaitHelper(driver);
-		waithelper.waitforelementclickable(signinlink,ObjectReader.reader.getExplicitWait());
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+		WaitHelper waithelper = new WaitHelper(driver);
+		waithelper.waitforelementclickable(signinlink, ObjectReader.reader.getExplicitWait());
 		new Testbase().getNavigationScreenshot(driver);
+		Testbase.logExtentReport("login page object created");
 	}
-	
-	public void clickOnsigninlink()
-	{
+
+	public void clickOnsigninlink() {
 		signinlink.click();
 		log.info("clicked on signin link");
-		logExtentReport("clicked on signin link");//this  will add log in extent report 
+		logExtentReport("clicked on signin link");// this will add log in extent report
 	}
-	
-	public void enterAlreadyRegisterdEmail(String emailaddress) {
-		registerdemail.sendKeys("emailaddress");
+
+	public void enterAlreadyRegisterdEmail() {
+		registerdemail.sendKeys("ashutosh.chaturvedi109@gmail.com");
 	}
-	
+
 	public void enterPassword() {
 		enterpassword.sendKeys("password");
 	}
-	
-	public HomePage clickonsubmitbutton()
-	{
-		JavascriptHelper javascripthelper=new JavascriptHelper(driver);
+
+	public HomePage clickonsubmitbutton() {
+		JavascriptHelper javascripthelper = new JavascriptHelper(driver);
 		javascripthelper.scrollDownvertically();
 		submitlogin.click();
-		return new HomePage(driver); // we are returning to Homepage 
+		return new HomePage(driver); // we are returning to Homepage
 	}
 
-//	public boolean verifysucessfulllogin() {
-//		return new VerificationHelper(driver).isdisplayed(sucessMsgobject);
-//	}
-	
+	public boolean verifysucessfulllogin() {
+
+		return new VerificationHelper(driver).isdisplayed(sucessMsgobject);
+
+	}
+
 	public void enterRegistrationEmail() {
-		String email= System.currentTimeMillis()+"@gmail.com";// this will create anew email every time
+		String email = System.currentTimeMillis() + "@gmail.com";// this will create anew email every time
 		registerdemail.sendKeys("email");
 	}
-	
+
 	public RegistrationPage clickOnCreateAccount() {
-		
+
 		CreateAnAccountButton.click();
 		return new RegistrationPage(driver);
 	}
-	
-	public void loginToApplication(String emailaddress,String password) {
+
+	public void loginToApplication(String emailaddress, String password) {
 		clickOnsigninlink();
-		enterAlreadyRegisterdEmail(emailaddress);
+		enterAlreadyRegisterdEmail();
 		enterPassword();
 		clickonsubmitbutton();
 	}
-	
+
 	public void logExtentReport(String s1) {
-		Testbase.test.log(Status.INFO, s1); // here we create a method to add log in extent report 
+		Testbase.test.log(Status.INFO, s1); // here we create a method to add log in extent report
 	}
-	
+
 }

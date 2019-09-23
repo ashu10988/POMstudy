@@ -87,12 +87,12 @@ public class Testbase {
 		extent.flush();
 	}
 	
-	@AfterTest
-	public void afterTest() throws Exception{
-		if(driver!=null){
-			driver.quit();
-		}
-	}
+//	@AfterTest
+//	public void afterTest() throws Exception{
+//		if(driver!=null){
+//			driver.quit();
+//		}
+//	}
 	
 
 	// creating browser objects to launch browser
@@ -183,4 +183,9 @@ public class Testbase {
 		Testbase.test.log(Status.INFO, s1);
 	}
 
+	public void getApplicationUrl(String url)
+	{
+		driver.get(url);
+		logExtentReport("Navigating to " +url);
+	}
 }

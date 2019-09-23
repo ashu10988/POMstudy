@@ -153,3 +153,33 @@
 2019-08-238 12:08:355 INFO ExtentListener:38 - test1test started
 2019-08-238 12:08:713 INFO ExtentListener:44 - test1test passed
 2019-08-238 12:08:391 INFO ExtentListener:32 - Testtest Finshed
+2019-09-266 18:09:190 INFO Testbase:132 - Intiliaze webdriver : 238762799
+2019-09-266 18:09:241 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-09-266 18:09:328 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-09-266 18:09:342 INFO WaitHelper:106 - page is loaded
+2019-09-266 18:09:615 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (13da0bc5ff850badf1936b4e372ee0b0)] -> xpath: //a[@class='login']]for: 100seconds
+2019-09-266 18:09:389 INFO WaitHelper:63 - element clicked
+2019-09-266 18:09:591 INFO LoginPage:59 - clicked on signin link
+2019-09-266 18:09:595 INFO Testbase:132 - Intiliaze webdriver : 1342346098
+2019-09-266 18:09:618 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-09-266 18:09:659 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-09-266 18:09:689 INFO WaitHelper:106 - page is loaded
+2019-09-266 18:09:410 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (11df97ed37145ca2c156ba2a1733643f)] -> xpath: //a[@class='login']]for: 100seconds
+2019-09-266 18:09:910 INFO WaitHelper:63 - element clicked
+2019-09-266 18:09:84 INFO LoginPage:59 - clicked on signin link
+2019-09-266 18:09:980 INFO Testbase:132 - Intiliaze webdriver : 1342346098
+2019-09-266 18:09:04 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-09-266 18:09:35 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-09-266 18:09:50 INFO WaitHelper:106 - page is loaded
+2019-09-266 18:09:851 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (218fc5ec1d2ec4431412f504e66f3eb8)] -> xpath: //a[@class='login']]for: 100seconds
+2019-09-266 18:09:364 INFO WaitHelper:63 - element clicked
+2019-09-266 18:09:780 INFO LoginPage:59 - clicked on signin link
+2019-09-266 18:09:803 INFO Testbase:132 - Intiliaze webdriver : 1342346098
+2019-09-266 18:09:817 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-09-266 18:09:851 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-09-266 18:09:864 INFO WaitHelper:106 - page is loaded
+2019-09-266 18:09:191 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (c626a032534c2a645aae2d214b8177ef)] -> xpath: //a[@class='login']]for: 100seconds
+2019-09-266 18:09:642 INFO WaitHelper:63 - element clicked
+2019-09-266 18:09:538 INFO LoginPage:58 - clicked on signin link
+2019-09-266 18:09:574 INFO VerificationHelper:25 -  element is displayed MY ACCOUNT
+2019-09-266 18:09:578 INFO AssertionHelper:68 - test is pass
