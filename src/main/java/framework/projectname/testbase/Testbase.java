@@ -179,5 +179,8 @@ public class Testbase {
 		}
 	}
 	
+	public static void logExtentReport(String s1) {
+		Testbase.test.log(Status.INFO, s1);
+	}
 
 }
