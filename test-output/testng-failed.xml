@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="framework.projectname.testscripts.loginpage.LoginTest">
+      <class name="framework.projectname.testscripts.productDetails.GoToCart">
         <methods>
           <include name="beforeMethod"/>
           <include name="AfterMethod"/>
-          <include name="loginToApplication"/>
           <include name="beforetest"/>
           <include name="beforeclass"/>
           <include name="beforesuit"/>
+          <include name="gotocartpage"/>
         </methods>
-      </class> <!-- framework.projectname.testscripts.loginpage.LoginTest -->
+      </class> <!-- framework.projectname.testscripts.productDetails.GoToCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

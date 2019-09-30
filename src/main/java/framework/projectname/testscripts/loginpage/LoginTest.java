@@ -13,7 +13,7 @@ public class LoginTest extends Testbase {
 
 	private final Logger log= LoggerHelper.getLogger(LoginTest.class);
 	
-	@Test(description="login with valid credetioals")
+	@Test(description="login with valid credetinals")
 	
 	public void loginToApplication()
 	 {
@@ -21,11 +21,9 @@ public class LoginTest extends Testbase {
 		LoginPage login = new LoginPage(driver);
 		login.loginToApplication(ObjectReader.reader.getUserName(), ObjectReader.reader.getPassword());
         boolean status=login.verifysucessfulllogin();
+        log.info(" Login sucessfully and redirectrec to my account page ");
         AssertionHelper.updateTestStatus(status);
 
-	 
 	 }
-	
-	
 	
 }

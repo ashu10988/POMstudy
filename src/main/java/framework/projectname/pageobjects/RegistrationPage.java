@@ -46,7 +46,7 @@ public class RegistrationPage {
 	@FindBy(xpath = "//select[@id='id_country']")
 	WebElement Country;
 
-	@FindBy(xpath = "//select[@id='phone_mobile']")
+	@FindBy(xpath = "//input[@id='phone_mobile']")
 	WebElement mobile;
 
 	@FindBy(xpath = "//input[@value='My address']")
@@ -61,6 +61,7 @@ public class RegistrationPage {
 		WaitHelper waithelper = new WaitHelper(driver);
 		waithelper.waitforelementclickable(Firstname, ObjectReader.reader.getExplicitWait());
 		new Testbase().getNavigationScreenshot(driver);
+		Testbase.logExtentReport("registration page object created");
 
 	}
 
@@ -78,13 +79,13 @@ public class RegistrationPage {
 		Password.sendKeys("hariom123");
 	}
 
-	public void addressfirstname() {
-		AddressFirstname.sendKeys("Ashutosh");
-	}
-
-	public void addresslastname() {
-		AddressLastname.sendKeys("Chaturvedi");
-	}
+//	public void addressfirstname() {
+//		AddressFirstname.sendKeys("Ashutosh");
+//	}
+//
+//	public void addresslastname() {
+//		AddressLastname.sendKeys("Chaturvedi");
+//	}
 
 	public void address() {
 		Address.sendKeys("151 Tsutin ornagecounty");
@@ -95,7 +96,7 @@ public class RegistrationPage {
 	}
 
 	public void selectState() {
-		Select statelist = new Select(Country);
+		Select statelist = new Select(State);
 		statelist.selectByValue("5");
 	}
 
@@ -122,5 +123,22 @@ public class RegistrationPage {
 		registerbutton.click();
 		log.info(" new registration submitted");
 	}
-
+ 
+	 public MyaccountPage registernewuser() {
+		 customerfirstname();
+		 customerlastname();
+		 password();
+		// addressfirstname();
+		 //addresslastname();
+		 address();
+		 city();
+		 selectState();
+		 zipcode();
+		 selectCountry();
+		 mobile();
+		 myaddress();
+		 registarbutton();
+	 return new MyaccountPage(driver);	 
+	 }
+	
 }

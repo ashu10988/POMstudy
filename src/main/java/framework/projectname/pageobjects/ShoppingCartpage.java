@@ -19,62 +19,58 @@ import framework.projectname.testbase.Testbase;
 public class ShoppingCartpage {
 	private Logger log = LoggerHelper.getLogger(ShoppingCartpage.class);
 	private WebDriver driver;
-	
-	@FindBy(xpath="//*[contains(text(),'Your shopping cart is empty.')]")
+
+	@FindBy(xpath = "//*[contains(text(),'Your shopping cart is empty.')]")
 	WebElement cartisempty;
-	
-	@FindBy(xpath="//a[@title='Delete']")
+
+	@FindBy(xpath = "//a[@title='Delete']")
 	List<WebElement> all_delete;
-	
-	@FindBy(xpath="//*[@id=\"order_step\"]/li[1]/span/text()")
-    WebElement summarytab;	
-	
+
+	@FindBy(xpath = "//*[@id=\"order_step\"]/li[1]/span/")
+	WebElement summarytab;
+
+	@FindBy(xpath = "//*[contains(text(),'Shopping-cart summary')]")
+	WebElement shoppingCartSummary;
+
+	@FindBy(xpath = "/html/body/div/div[2]/div/div[3]/div/h1/span")
+	WebElement shoppingcartcount;
+
 	public ShoppingCartpage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		WaitHelper waithelper = new WaitHelper(driver);
-		waithelper.waitforelementclickable(summarytab, ObjectReader.reader.getExplicitWait());
+		waithelper.waitforelementclickable(shoppingCartSummary, ObjectReader.reader.getExplicitWait());
 		new Testbase().getNavigationScreenshot(driver);
+		Testbase.logExtentReport(" Shoppingcartpage object created");
 	}
-	
-	
-	//Common method to delete all products 
+
+	// Common method to delete all products
 	public void deleteAllproducts() throws InterruptedException {
-		List<WebElement> deletes=all_delete;
-		Iterator<WebElement> itr=deletes.iterator();
-		while(itr.hasNext())
-		{
+		List<WebElement> deletes = all_delete;
+		Iterator<WebElement> itr = deletes.iterator();
+		while (itr.hasNext()) {
 			itr.next().click();
 			Thread.sleep(2000);
 		}
 	}
-	
+
 	public boolean verifyProduct(String prod) {
-		log.info("Selecteing prod: "+prod);
-		WebElement product= driver.findElement(By.xpath("//*[contains(text(),'"+prod+"')]"));// To convert entire string to single string
+		log.info("Selecteing prod: " + prod);
+		WebElement product = driver.findElement(By.xpath("//*[contains(text(),'" + prod + "')]"));// To convert entire
+																									// string to single
+																									// string
 		return new VerificationHelper(driver).isdisplayed(product);
-	
+
 	}
-	
+
 	public boolean verifyEmptyShoppingCartMessage() {
 		return new VerificationHelper(driver).isdisplayed(cartisempty);
-	
+
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	public boolean cartSummaryText() {
+		return new VerificationHelper(driver).isdisplayed(shoppingcartcount);
+
+	}
+
 }

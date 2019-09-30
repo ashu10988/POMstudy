@@ -36,7 +36,7 @@ public class LoginPage {
 	WebElement submitlogin;
 
 	@FindBy(xpath = "//input[@id='email_create']")
-	WebElement regestriationEmail;
+	WebElement newEmail;
 
 	@FindBy(xpath = "//button[@id='SubmitCreate']/span")
 	WebElement CreateAnAccountButton;
@@ -62,7 +62,11 @@ public class LoginPage {
 	public void enterAlreadyRegisterdEmail() {
 		registerdemail.sendKeys("ashutosh.chaturvedi109@gmail.com");
 	}
-
+ 
+	public void enterNewEmail() {
+		newEmail.sendKeys("ashutosh.chaturvedi109@gmail.com");
+	}
+	
 	public void enterPassword() {
 		enterpassword.sendKeys("password");
 	}
@@ -80,13 +84,19 @@ public class LoginPage {
 
 	}
 
+//	public void enterRegistredEmail() {
+//		String email = System.currentTimeMillis() + "@gmail.com";// this will create anew email every time
+//		registerdemail.sendKeys("email");
+//	}
+// checking need to change 
 	public void enterRegistrationEmail() {
 		String email = System.currentTimeMillis() + "@gmail.com";// this will create anew email every time
-		registerdemail.sendKeys("email");
+		newEmail.sendKeys(email);
 	}
-
+	
 	public RegistrationPage clickOnCreateAccount() {
-
+        new JavascriptHelper(driver).scrollDownvertically();
+        enterRegistrationEmail();
 		CreateAnAccountButton.click();
 		return new RegistrationPage(driver);
 	}

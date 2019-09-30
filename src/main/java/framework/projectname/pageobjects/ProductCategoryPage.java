@@ -1,5 +1,7 @@
 package framework.projectname.pageobjects;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -28,7 +30,7 @@ public class ProductCategoryPage {
 	@FindBy(xpath = "//*[@id=\"layer_cart\"]/div[1]/div[1]/h2")
 	WebElement productAddedSucessfully;
 
-	@FindBy(xpath = "//a[ @data-id-product='1']/span")
+	@FindBy(xpath = "//*[@id=\"center_column\"]/ul/li[1]/div/div[2]/div[2]/a[1]/span")
 	WebElement addToCart;
 
 	@FindBy(xpath = "//a[@title='Proceed to checkout']/span")
@@ -40,8 +42,9 @@ public class ProductCategoryPage {
 	@FindBy(xpath = "//*[@id=\"center_column\"]/ul/li/div/div[2]/div[1]/span[1]")
 	List<WebElement> allPriceElements;
 
-	@FindBy(xpath="//select[@id=\"selectProductSort\"]")
+	@FindBy(xpath = "//select[@id=\"selectProductSort\"]")
 	WebElement sortby;
+
 	public ProductCategoryPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -51,11 +54,12 @@ public class ProductCategoryPage {
 	}
 
 	// Method to select product as per their number
-	public void mouseOverProduct(int number) {
-		String fpart = "//a[ @data-id-product=";
-		String spart = "/span";
+	public void mouseOverOnProduct(int number){
+		String fPart = "//*[@id='center_column']/ul/li[";
+		String sPart = "]/div/div[2]/h5/a";
 		Actions action = new Actions(driver);
-		action.moveToElement(driver.findElement(By.xpath(fpart + number + spart))).build().perform();
+		log.info("doing mouse over on: "+number+"..product");
+		action.moveToElement(driver.findElement(By.xpath(fPart+number+sPart))).build().perform();
 	}
 
 	public void clickOnAddtoCart() {
@@ -63,9 +67,10 @@ public class ProductCategoryPage {
 		addToCart.click();
 	}
 
-	public void clickOnproccedToCheckout() {
+	public ShoppingCartpage clickOnproccedToCheckout() {
 		log.info("clicking on product to checkout: " + proceedToCheckout.getText());
 		proceedToCheckout.click();
+		return new ShoppingCartpage(driver);
 	}
 
 	public void selectcolour(String data) {
@@ -133,28 +138,40 @@ public class ProductCategoryPage {
 	public List<WebElement> getAllproductprice() {
 		return allPriceElements;
 	}
-	
-	
+
 	public void selectsortbyfilter(String dataToSelect) {
-		DropdownHelper dropdown= new DropdownHelper(driver);
+		DropdownHelper dropdown = new DropdownHelper(driver);
 		dropdown.selectByUsingVisbleText(sortby, dataToSelect);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	public boolean verifyArrayHasAscendingData(ArrayList<Integer> array) {
+		for (int i = 0; i < array.size() - 1; i++) {
+			// this condition will check all next price should be smaller than previous one.
+			// next price can be grater and equal
+			if (array.get(i) <= array.get(i + 1)) {
+				log.info("obj.get(i).." + array.get(i));
+				log.info("obj.get(i+1).." + array.get(i + 1));
+			} else {
+				log.info("price filter is not working");
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public ArrayList<Integer> getPriceMassagedData(Iterator<WebElement> itr) {
+		ArrayList<Integer> array = new ArrayList<Integer>();
+		while (itr.hasNext()) {
+			String p = itr.next().getText();
+			if (p.contains("$")) {
+				String actualData = p.substring(1);//this will remove dollar from price 
+				log.info(actualData);
+				double p1 = Double.parseDouble(actualData);//price will come in decmial 16.40 .So covenrt it into Integer for sorting 
+				int productPrice = (int) (p1);
+				array.add(productPrice);
+			}
+		}
+		return array;
+	}
+
 }
-
-
-
-
-
-
-
-

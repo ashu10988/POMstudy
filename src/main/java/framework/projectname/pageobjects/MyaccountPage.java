@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.aventstack.extentreports.Status;
 
+import framework.projectname.helper.assertion.VerificationHelper;
 import framework.projectname.helper.browserconfiguration.waitconfig.ObjectReader;
 import framework.projectname.helper.logger.LoggerHelper;
 import framework.projectname.helper.wait.WaitHelper;
@@ -40,6 +41,8 @@ public class MyaccountPage {
 	@FindBy(xpath="//*[@id=\"center_column\"]/h1")
 	WebElement MyAccount;
 	
+	@FindBy(xpath="//*[contains(text(),'Welcome to your account. Here you can manage all of your personal information and orders')]")
+	WebElement Welcometext;
 	public MyaccountPage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
@@ -79,5 +82,9 @@ public class MyaccountPage {
 	public void logExtentReport(String s1) {
 		Testbase.test.log(Status.INFO, s1);
 	}
-
+  
+	public boolean welcomeText() {
+		return  new VerificationHelper(driver).isdisplayed(Welcometext);
+		
+	}
 }

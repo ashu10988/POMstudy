@@ -21,16 +21,16 @@ public class NavigationMenu {
 	private WebDriver driver;
 	
 	@FindBy(xpath="//li/a[@title='Women']")
-	WebElement womenMenu;
+	public WebElement womenMenu;
 
 	@FindBy(xpath="//*[@id=\"block_top_menu\"]/ul/li[2]/a")
-	WebElement dressesMenu;
+	public WebElement dressesMenu;
 	
 	@FindBy(xpath="//*[@id=\"block_top_menu\"]/ul/li[3]/a")
-	WebElement tshirtsMenu;
+	public WebElement tshirtsMenu;
     
 	@FindBy(xpath="//li/a[@title='Tops']")
-	WebElement tops;
+	public WebElement tops;
 
 	@FindBy(xpath="//*[@id=\"block_top_menu\"]/ul/li[1]/ul/li[2]/a")
 	WebElement subDressessmenu;
@@ -48,7 +48,7 @@ public class NavigationMenu {
 		Testbase.logExtentReport("doing mouse over on :" +data);
 		Actions action= new Actions(driver);
 		action.moveToElement(driver.findElement(By.xpath("//*[contains(text(),'"+data+"')]"))).build().perform();
-		
+		//action.moveToElement(womenMenu).build().perform();
 	}
 	
 	public ProductCategoryPage clickOnItem(String data)

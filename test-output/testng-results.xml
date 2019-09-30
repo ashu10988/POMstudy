@@ -2,68 +2,80 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_24.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_24.png'height='100' width='100'/></a>]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_37.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_37.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_29.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_29.png'height='100' width='100'/></a>]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\loginToApplication_23_09_2019_06_55_38.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\loginToApplication_23_09_2019_06_55_38.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_34.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_34.png'height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_35.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_35.png'height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\gotocartpage_30_09_2019_07_40_35.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\gotocartpage_30_09_2019_07_40_35.png'height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31620" started-at="2019-09-23T13:25:09Z" finished-at="2019-09-23T13:25:41Z">
+  <suite name="Default suite" duration-ms="24799" started-at="2019-09-30T14:10:11Z" finished-at="2019-09-30T14:10:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31620" started-at="2019-09-23T13:25:09Z" finished-at="2019-09-23T13:25:41Z">
-      <class name="framework.projectname.testscripts.loginpage.LoginTest">
-        <test-method status="PASS" signature="beforesuit()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="beforesuit" is-config="true" duration-ms="944" started-at="2019-09-23T18:55:08Z" finished-at="2019-09-23T18:55:09Z">
+    <test name="Default test" duration-ms="24799" started-at="2019-09-30T14:10:11Z" finished-at="2019-09-30T14:10:36Z">
+      <class name="framework.projectname.testscripts.productDetails.GoToCart">
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:framework.projectname.testscripts.productDetails.GoToCart@52a86356]" name="beforesuit" is-config="true" duration-ms="300" started-at="2019-09-30T19:40:11Z" finished-at="2019-09-30T19:40:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuit -->
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="beforetest" is-config="true" duration-ms="8386" started-at="2019-09-23T18:55:09Z" finished-at="2019-09-23T18:55:18Z">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:framework.projectname.testscripts.productDetails.GoToCart@52a86356]" name="beforetest" is-config="true" duration-ms="5459" started-at="2019-09-30T19:40:11Z" finished-at="2019-09-30T19:40:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="beforeclass" is-config="true" duration-ms="10" started-at="2019-09-23T18:55:18Z" finished-at="2019-09-23T18:55:18Z">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:framework.projectname.testscripts.productDetails.GoToCart@52a86356]" name="beforeclass" is-config="true" duration-ms="2" started-at="2019-09-30T19:40:16Z" finished-at="2019-09-30T19:40:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="beforeMethod" is-config="true" duration-ms="26" started-at="2019-09-23T18:55:18Z" finished-at="2019-09-23T18:55:18Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:framework.projectname.testscripts.productDetails.GoToCart@52a86356]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2019-09-30T19:40:16Z" finished-at="2019-09-30T19:40:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void framework.projectname.testscripts.loginpage.LoginTest.loginToApplication()]]>
+                <![CDATA[public void framework.projectname.testscripts.productDetails.GoToCart.gotocartpage() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="loginToApplication" duration-ms="20443" started-at="2019-09-23T18:55:18Z" description="login with valid credetioals" finished-at="2019-09-23T18:55:38Z">
+        <test-method status="PASS" signature="gotocartpage()[pri:0, instance:framework.projectname.testscripts.productDetails.GoToCart@52a86356]" name="gotocartpage" duration-ms="18610" started-at="2019-09-30T19:40:16Z" finished-at="2019-09-30T19:40:35Z">
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_24.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_24.png'height='100' width='100'/></a>]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_37.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_37.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_29.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_29.png'height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_34.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_34.png'height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_35.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_35.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- loginToApplication -->
-        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356]" name="AfterMethod" is-config="true" duration-ms="2683" started-at="2019-09-23T18:55:38Z" finished-at="2019-09-23T18:55:41Z">
+        </test-method> <!-- gotocartpage -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:framework.projectname.testscripts.productDetails.GoToCart@52a86356]" name="AfterMethod" is-config="true" duration-ms="703" started-at="2019-09-30T19:40:35Z" finished-at="2019-09-30T19:40:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToApplication status=SUCCESS method=LoginTest.loginToApplication()[pri:0, instance:framework.projectname.testscripts.loginpage.LoginTest@52a86356] output=<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_23_09_2019_06_55_27.png'height='100' width='100'/></a>]]]>
+                <![CDATA[[TestResult name=gotocartpage status=SUCCESS method=GoToCart.gotocartpage()[pri:0, instance:framework.projectname.testscripts.productDetails.GoToCart@52a86356] output=<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_24.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\Blank_30_09_2019_07_40_24.png'height='100' width='100'/></a>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\loginToApplication_23_09_2019_06_55_38.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\loginToApplication_23_09_2019_06_55_38.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\gotocartpage_30_09_2019_07_40_35.png'><img src='C:\Users\Diligence soft\git\POMstudy\src\main\Resources\screenshot\gotocartpage_30_09_2019_07_40_35.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-      </class> <!-- framework.projectname.testscripts.loginpage.LoginTest -->
+      </class> <!-- framework.projectname.testscripts.productDetails.GoToCart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
