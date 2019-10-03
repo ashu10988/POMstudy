@@ -42,15 +42,23 @@ public class PropertyReader implements ConfigReader {
 	}
 
 	public String getUrl() {
+		if(System.getProperty("url")!=null) {
+			return System.getProperty("url");
+		}
 		return OR.getProperty("applicationUrl");
 	}
 
 	public String getUserName() {
-		
+		if(System.getProperty("username")!=null) {
+			return System.getProperty("username");
+		}
 		return OR.getProperty("userName");
 	}
 
 	public String getPassword() {
+		if(System.getProperty("password")!=null) {
+			return System.getProperty("password");
+		}
 		return OR.getProperty("password");
 	}
 

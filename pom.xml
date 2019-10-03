@@ -45,7 +45,36 @@
 			<artifactId>extentreports</artifactId>
 			<version>3.0.0</version>
 		</dependency>
-     		
+
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<systemPropertyVariables>
+						<property>
+							<name>url</name>
+							<value>${url}</value>
+						</property>
+						<property>
+							<name>username</name>
+							<value>${username}</value>
+						</property>
+						<property>
+							<name>password</name>
+							<value>${password}</value>
+						</property>
+					</systemPropertyVariables>
+					<suiteXmlFiles>
+						<suiteXmlFile>AllTest.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
 
 </project>

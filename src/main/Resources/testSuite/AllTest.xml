@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AllTest">
+	<test name="LoginTest">
+		<classes>
+			<class
+				name="framework.projectname.testscripts.loginpage.LoginTest" />
+		</classes>
+	</test>
+	<test name="RegistrationTest">
+		<classes>
+			<class
+				name="framework.projectname.testscripts.RegistrationTest.RegistrationTest" />
+		</classes>
+	</test>
+	<test name="VerifyLowestFirstpriceFilter">
+		<classes>
+			<class
+				name="framework.projectname.testscripts.productDetails.VerifyLowestFirstpriceFilter" />
+		</classes>
+	</test>
+
+	<test name="GoToCart">
+		<classes>
+			<class
+				name="framework.projectname.testscripts.productDetails.GoToCart" />
+		</classes>
+	</test>
+
+</suite> 

@@ -30,6 +30,7 @@ import framework.projectname.helper.browserconfiguration.ChromeBrowser;
 import framework.projectname.helper.browserconfiguration.FirefoxBrowser;
 import framework.projectname.helper.browserconfiguration.waitconfig.ObjectReader;
 import framework.projectname.helper.browserconfiguration.waitconfig.PropertyReader;
+import framework.projectname.helper.javascript.JavascriptHelper;
 import framework.projectname.helper.logger.LoggerHelper;
 import framework.projectname.helper.resource.Resourcehelper;
 import framework.projectname.helper.wait.WaitHelper;
@@ -170,8 +171,10 @@ public class Testbase {
 	// This method will capture screenshot of all pages 
 	
 	public void getNavigationScreenshot(WebDriver driver)
-	{
+ 	{
+		new JavascriptHelper(driver).zoomScreenby60percent();
 		String screen=capturescreen("", driver);
+		new JavascriptHelper(driver).zoomScreenby100percent();
 		try {
 			test.addScreenCaptureFromPath(screen);
 		} catch (IOException e) {

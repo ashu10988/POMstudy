@@ -85,10 +85,18 @@ public class JavascriptHelper {
 	
 	// This method will zoom screen by 60%
 		
-		public void zoomScreen()
+		public void zoomScreenby60percent()
 		{
 			executeScript("document.body.style.zoom='60%'");
 		}
+		
+		// This method will zoom screen by 100%
+		
+				public void zoomScreenby100percent()
+				{
+					executeScript("document.body.style.zoom='100%'");
+				}
+		
 	// This will click top of the element without scrolling 
 		
 		public void topElementClick(WebElement element)
