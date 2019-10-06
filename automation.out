@@ -593,3 +593,135 @@ Your shopping cart contains: 1 Product
 2019-10-276 16:10:669 INFO WaitHelper:32 - Implicit wait has been set to :50
 2019-10-276 16:10:754 INFO WaitHelper:104 - waiting for page to loadSECONDS
 2019-10-276 16:10:758 INFO WaitHelper:106 - page is loaded
+2019-10-279 15:10:982 INFO Testbase:133 - Intiliaze webdriver : 1753714541
+2019-10-279 15:10:105 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 15:10:147 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 15:10:152 INFO WaitHelper:106 - page is loaded
+2019-10-279 15:10:542 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (dd091856c91ddb6fe19080c45ce16c2d)] -> xpath: //a[@class='login']]for: 100seconds
+2019-10-279 15:10:352 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:305 INFO LoginPage:58 - clicked on signin link
+2019-10-279 15:10:867 INFO VerificationHelper:25 -  element is displayed MY ACCOUNT
+2019-10-279 15:10:868 INFO LoginTest:24 -  Login sucessfully and redirectrec to my account page 
+2019-10-279 15:10:207 INFO AssertionHelper:68 - test is pass
+2019-10-279 15:10:984 INFO Testbase:133 - Intiliaze webdriver : 1862994526
+2019-10-279 15:10:984 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 15:10:989 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 15:10:994 INFO WaitHelper:106 - page is loaded
+2019-10-279 15:10:98 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (bd745e14d388fffe28de1c84a00655ba)] -> xpath: //a[@class='login']]for: 100seconds
+2019-10-279 15:10:171 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:894 INFO LoginPage:58 - clicked on signin link
+2019-10-279 15:10:747 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (bd745e14d388fffe28de1c84a00655ba)] -> xpath: //input[@id='customer_firstname']]for: 100seconds
+2019-10-279 15:10:826 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:712 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (bd745e14d388fffe28de1c84a00655ba)] -> xpath: //input[@id='customer_firstname']]for: 100seconds
+2019-10-279 15:10:769 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:783 INFO RegistrationPage:124 -  new registration submitted
+2019-10-279 15:10:854 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (bd745e14d388fffe28de1c84a00655ba)] -> xpath: //*[@id="center_column"]/h1]for: 100seconds
+2019-10-279 15:10:912 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:698 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (bd745e14d388fffe28de1c84a00655ba)] -> xpath: //*[@id="center_column"]/h1]for: 100seconds
+2019-10-279 15:10:754 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:274 INFO VerificationHelper:25 -  element is displayed Welcome to your account. Here you can manage all of your personal information and orders.
+2019-10-279 15:10:274 INFO AssertionHelper:68 - test is pass
+2019-10-279 15:10:28 INFO Testbase:133 - Intiliaze webdriver : 1009916891
+2019-10-279 15:10:29 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 15:10:181 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 15:10:184 INFO WaitHelper:106 - page is loaded
+2019-10-279 15:10:205 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (e7061441e6fe407c2544b2549e6639a9)] -> xpath: //li/a[@title='Women']]for: 100seconds
+2019-10-279 15:10:275 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:388 INFO NavigationMenu:62 - clciking onWOMEN
+2019-10-279 15:10:955 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (e7061441e6fe407c2544b2549e6639a9)] -> xpath: //div[@id='layered_block_left']/p]for: 100seconds
+2019-10-279 15:10:23 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:830 INFO DropdownHelper:41 - Select by using visbleText Price: Lowest first
+2019-10-279 15:10:55 INFO ProductCategoryPage:168 - 16.51
+2019-10-279 15:10:73 INFO ProductCategoryPage:168 - 27.00
+2019-10-279 15:10:90 INFO ProductCategoryPage:168 - 26.00
+2019-10-279 15:10:108 INFO ProductCategoryPage:168 - 50.99
+2019-10-279 15:10:126 INFO ProductCategoryPage:168 - 28.98
+2019-10-279 15:10:147 INFO ProductCategoryPage:168 - 30.50
+2019-10-279 15:10:166 INFO ProductCategoryPage:168 - 16.40
+2019-10-279 15:10:166 INFO ProductCategoryPage:152 - obj.get(i)..16
+2019-10-279 15:10:167 INFO ProductCategoryPage:153 - obj.get(i+1)..27
+2019-10-279 15:10:167 INFO ProductCategoryPage:155 - price filter is not working
+2019-10-279 15:10:167 INFO AssertionHelper:74 - test is fail
+2019-10-279 15:10:133 INFO Testbase:133 - Intiliaze webdriver : 2002097394
+2019-10-279 15:10:133 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 15:10:136 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 15:10:140 INFO WaitHelper:106 - page is loaded
+2019-10-279 15:10:978 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (3b6714f50e8af320f4ec22bdca187929)] -> xpath: //li/a[@title='Women']]for: 100seconds
+2019-10-279 15:10:87 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:786 INFO NavigationMenu:62 - clciking onWOMEN
+2019-10-279 15:10:635 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (3b6714f50e8af320f4ec22bdca187929)] -> xpath: //div[@id='layered_block_left']/p]for: 100seconds
+2019-10-279 15:10:720 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:865 INFO ProductCategoryPage:61 - doing mouse over on: 1..product
+2019-10-279 15:10:148 INFO ProductCategoryPage:66 - clicking on cart button
+2019-10-279 15:10:434 INFO ProductCategoryPage:71 - clicking on product to checkout: 
+2019-10-279 15:10:808 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (3b6714f50e8af320f4ec22bdca187929)] -> xpath: //*[contains(text(),'Shopping-cart summary')]]for: 100seconds
+2019-10-279 15:10:861 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:293 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (3b6714f50e8af320f4ec22bdca187929)] -> xpath: //*[contains(text(),'Shopping-cart summary')]]for: 100seconds
+2019-10-279 15:10:346 INFO WaitHelper:63 - element clicked
+2019-10-279 15:10:945 INFO VerificationHelper:25 -  element is displayed Your shopping cart contains: 1 Product
+2019-10-279 15:10:945 INFO AssertionHelper:68 - test is pass
+2019-10-279 16:10:651 INFO Testbase:133 - Intiliaze webdriver : 1783568981
+2019-10-279 16:10:656 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:759 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:764 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:226 INFO Testbase:133 - Intiliaze webdriver : 1957099969
+2019-10-279 16:10:234 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:245 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:257 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:434 INFO WaitHelper:60 - Waiting for [[ChromeDriver: chrome on XP (318630e17b0fd4b3d7879f52bfc30461)] -> xpath: //a[@class='login']]for: 100seconds
+2019-10-279 16:10:869 INFO WaitHelper:63 - element clicked
+2019-10-279 16:10:913 INFO Testbase:133 - Intiliaze webdriver : 1077873186
+2019-10-279 16:10:926 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:943 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:957 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:96 INFO Testbase:123 - session not created
+from chrome not reachable
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DILIGENCESOFT', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0041EB13+1501971]
+	Ordinal0 [0x0039F6D1+980689]
+	Ordinal0 [0x00327508+488712]
+	Ordinal0 [0x0032131A+463642]
+	Ordinal0 [0x003219C8+465352]
+	Ordinal0 [0x00322AA5+469669]
+	Ordinal0 [0x0031EC85+453765]
+	Ordinal0 [0x00328330+492336]
+	Ordinal0 [0x002DA108+172296]
+	Ordinal0 [0x002D942D+169005]
+	Ordinal0 [0x002D78EB+162027]
+	Ordinal0 [0x002C0AC7+68295]
+	Ordinal0 [0x002C1B40+72512]
+	Ordinal0 [0x002C1AD9+72409]
+	Ordinal0 [0x003B8F37+1085239]
+	GetHandleVerifier [0x004BD7ED+503293]
+	GetHandleVerifier [0x004BD580+502672]
+	GetHandleVerifier [0x004C46AC+531644]
+	GetHandleVerifier [0x004BDFFA+505354]
+	Ordinal0 [0x003B0606+1050118]
+	Ordinal0 [0x003B047F+1049727]
+	Ordinal0 [0x003BAF9B+1093531]
+	Ordinal0 [0x003BB103+1093891]
+	Ordinal0 [0x003BA095+1089685]
+	BaseThreadInitThunk [0x75090419+25]
+	RtlGetAppContainerNamedObjectPath [0x7714662D+237]
+	RtlGetAppContainerNamedObjectPath [0x771465FD+189]
+
+2019-10-279 16:10:850 INFO Testbase:133 - Intiliaze webdriver : 1783568981
+2019-10-279 16:10:886 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:904 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:908 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:122 INFO Testbase:133 - Intiliaze webdriver : 1957099969
+2019-10-279 16:10:123 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:128 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:134 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:377 INFO Testbase:133 - Intiliaze webdriver : 1415630650
+2019-10-279 16:10:378 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:381 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:386 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:138 INFO Testbase:133 - Intiliaze webdriver : 1877062907
+2019-10-279 16:10:157 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:169 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:181 INFO WaitHelper:106 - page is loaded
