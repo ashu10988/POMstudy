@@ -13,12 +13,14 @@
 				name="framework.projectname.testscripts.RegistrationTest.RegistrationTest" />
 		</classes>
 	</test>
-	<test name="VerifyLowestFirstpriceFilter">
+
+<!-- <test name="VerifyLowestFirstpriceFilter">
 		<classes>
 			<class
 				name="framework.projectname.testscripts.productDetails.VerifyLowestFirstpriceFilter" />
 		</classes>
-	</test>
+	</test> -->	
+	
 
 	<test name="GoToCart">
 		<classes>
