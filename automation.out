@@ -725,3 +725,35 @@ remote stacktrace: Backtrace:
 2019-10-279 16:10:157 INFO WaitHelper:32 - Implicit wait has been set to :50
 2019-10-279 16:10:169 INFO WaitHelper:104 - waiting for page to loadSECONDS
 2019-10-279 16:10:181 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:448 INFO Testbase:133 - Intiliaze webdriver : 1783568981
+2019-10-279 16:10:454 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:463 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:467 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:184 INFO Testbase:133 - Intiliaze webdriver : 1171434979
+2019-10-279 16:10:204 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:241 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:267 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:609 INFO Testbase:133 - Intiliaze webdriver : 701119748
+2019-10-279 16:10:633 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:665 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:696 INFO WaitHelper:106 - page is loaded
+2019-10-279 16:10:25 INFO Testbase:133 - Intiliaze webdriver : 1237762639
+2019-10-279 16:10:43 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 16:10:97 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 16:10:136 INFO WaitHelper:106 - page is loaded
+2019-10-279 17:10:765 INFO Testbase:133 - Intiliaze webdriver : 1783568981
+2019-10-279 17:10:849 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 17:10:55 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 17:10:59 INFO WaitHelper:106 - page is loaded
+2019-10-279 17:10:951 INFO Testbase:133 - Intiliaze webdriver : 1957099969
+2019-10-279 17:10:962 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 17:10:976 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 17:10:987 INFO WaitHelper:106 - page is loaded
+2019-10-279 17:10:36 INFO Testbase:133 - Intiliaze webdriver : 1415630650
+2019-10-279 17:10:81 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 17:10:118 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 17:10:129 INFO WaitHelper:106 - page is loaded
+2019-10-279 17:10:896 INFO Testbase:133 - Intiliaze webdriver : 1877062907
+2019-10-279 17:10:914 INFO WaitHelper:32 - Implicit wait has been set to :50
+2019-10-279 17:10:933 INFO WaitHelper:104 - waiting for page to loadSECONDS
+2019-10-279 17:10:951 INFO WaitHelper:106 - page is loaded
